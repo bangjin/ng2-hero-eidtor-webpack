@@ -7,6 +7,7 @@ import { HeroesComponent } from './hero/heroes.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero/hero-detail.component';
 import { HeroService } from './hero/hero.service';
+import {HeroSearchComponent} from './hero/hero-search.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -24,7 +25,8 @@ import { InMemoryDataService } from './in-memory-data.service';
         AppComponent,
         HeroDetailComponent,
         HeroesComponent,
-        DashboardComponent
+        DashboardComponent,
+        HeroSearchComponent
     ],
     providers: [HeroService],
     bootstrap: [AppComponent]
