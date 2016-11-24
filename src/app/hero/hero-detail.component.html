@@ -7,3 +7,10 @@
     </div>
      <button (click)="goBack()">Back</button>
 </div>
+
+<div *ngIf="selectedHero">
+  <h2>
+    {{selectedHero.name | uppercase}} is my hero
+  </h2>
+  <button (click)="gotoDetail()">View Details</button>
+</div>
